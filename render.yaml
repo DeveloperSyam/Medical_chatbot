@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: medical-chatbot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false

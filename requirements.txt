@@ -1,0 +1,6 @@
+Flask
+google-generativeai
+python-dotenv
+googletrans==4.0.0rc1
+fpdf
+gunicorn
